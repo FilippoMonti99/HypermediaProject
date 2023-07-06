@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend"
+      ],
+      "~/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/*"
+      ],
+      "@": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend"
+      ],
+      "@/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/*"
+      ],
+      "~~": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend"
+      ],
+      "~~/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/*"
+      ],
+      "@@": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend"
+      ],
+      "@@/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/*"
+      ],
+      "assets": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/assets"
+      ],
+      "assets/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/assets/*"
+      ],
+      "public": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/public"
+      ],
+      "public/*": [
+        "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/pippomonti99/Desktop/Hyper/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
