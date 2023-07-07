@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
     app: {
         // Checking environment variable to decide whether the link 
-        baseURL: '/test' , // Name of your GitHub Repository
+        baseURL: '/HypermediaProject' , // Name of your GitHub Repository
         head: {
             title: 'Innovate Ventures',
             charset: 'utf-8',

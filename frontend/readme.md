@@ -90,3 +90,6 @@ The project contains:
 - The server (the same that was available in a previous repository)
 
 Most of the content is commented to explain how things works.
+
+Test
+

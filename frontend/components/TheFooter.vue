@@ -30,7 +30,7 @@
     footer
     {
         background-color: #03bfcb;
-         margin-top: 1%;
+        margin-top: 1%;
         border-bottom: 5px solid #231e39;
         padding: 5px;
         bottom: 0;
