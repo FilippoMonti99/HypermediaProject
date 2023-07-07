@@ -51,7 +51,7 @@
             </div>
 
             <div id="card-container">
-                <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.field" :link = "'/projects/' + project.id" :img_link="`_nuxt/assets/img/projects/${project.name}.jpeg`" :button="false"/>
+                <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.field" :link = "'/projects/' + project.id" :img_link="getSrc(project.name)" :button="false"/>
             </div>
     
        </div>     
@@ -85,6 +85,12 @@
         // Returning the filtered list
         return arr
     })
+
+    const getSrc = (name) => {
+      const path = `/assets/img/projects/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/projects/*.jpeg");
+      return modules[path].default;
+    };
     
     useHead({
     title: 'All projects - Innovate Ventures',

@@ -25,7 +25,7 @@
         </div>
         
         <div id="card-container">
-            <Card v-for = "person of people" :title = "person.name" :subtitle = "person.role" :link = "'/people/' + person.id" :img_link="`_nuxt/assets/img/people/${person.name}.jpeg`" />
+            <Card v-for = "person of people" :title = "person.name" :subtitle = "person.role" :link = "'/people/' + person.id" :img_link="getSrc(person.name)" />
         </div>
     </main>
 </template>
@@ -34,6 +34,11 @@
 
     const { data: people } = await useFetch(useRuntimeConfig().public.serverURL + '/people')
 
+    const getSrc = (name) => {
+      const path = `/assets/img/people/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/people/*.jpeg");
+      return modules[path].default;
+    };
 
     useHead({
         title: 'All people - Innovate Ventures',

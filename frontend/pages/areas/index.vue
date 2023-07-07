@@ -29,7 +29,7 @@ import CardArea from '~/components/CardArea.vue';
         
 
         <div id="card-container">
-            <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" :imm_link="`_nuxt/assets/img/${area.name}.jpeg`" />
+            <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" :imm_link="getSrc(area.name)" />
         </div>
     </main>
 </template>
@@ -38,6 +38,11 @@ import CardArea from '~/components/CardArea.vue';
 
   const { data: areas } = await useFetch(useRuntimeConfig().public.serverURL + '/areas')
 
+  const getSrc = (name) => {
+      const path = `/assets/img/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/*.jpeg");
+      return modules[path].default;
+    };
 
   useHead({
     title: 'All areas - Innovate Ventures',
