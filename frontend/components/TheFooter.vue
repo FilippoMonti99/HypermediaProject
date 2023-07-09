@@ -7,7 +7,7 @@
         <div class="footer-container">
             <div class="footer-logo">
                 <img id="foto" src="~/assets/img/pngegg.png" alt="Innovate Ventures">
-                <h3>Innovate Ventures</h3>
+                <h4>Innovate Ventures</h4>
             </div>
             
             <div class="footer-contact">

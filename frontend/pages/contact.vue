@@ -7,7 +7,7 @@
                 <div class="form-cont">
                     <div class="text-form">
                         <h1>Contact us</h1>
-                        <h4>For further information</h4>
+                        <p>For further information</p>
                     </div>
                     
                     <div class="act-form">
@@ -31,9 +31,9 @@
               <div class="cont-cont"> 
                 <div class="context">
                     <h1>Headquarter</h1>
-                    <h4>123 Innovation Street, Cityville </h4>
-                    <h4>+1 123-456-7890</h4> 
-                    <h4>info@innovateventures.com</h4>
+                    <p>123 Innovation Street, Cityville </p>
+                    <p>+1 123-456-7890</p> 
+                    <p>info@innovateventures.com</p>
                 </div>
 
                 <div class="image2">

@@ -14,7 +14,7 @@ import CardArea from '~/components/CardArea.vue';
             
             <div class="aree">
                 <h1>Areas of investment</h1>
-                <h3 style="margin-top:-15px;">At Innovate Ventures, we are driven by a strong belief in the power of innovation and the transformative potential of visionary entrepreneurs</h3>
+                <p class="p2">At Innovate Ventures, we are driven by a strong belief in the power of innovation and the transformative potential of visionary entrepreneurs</p>
             </div>
             
             
@@ -60,7 +60,9 @@ import CardArea from '~/components/CardArea.vue';
   </script>
 
 <style>
-
+    .p2{
+        font-size: 50pt;
+    }
 
     .cont-ar1{
         display: grid;

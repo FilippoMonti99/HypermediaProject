@@ -67,7 +67,7 @@ const img6 = "logotour"
 
     .firm{
         font-size: 50px;
-        color:rgb(27, 103, 202);
+        color:rgb(96, 240, 245);
         
     }
     .history{
@@ -80,21 +80,21 @@ const img6 = "logotour"
 
     .health{
         font-size: 50px;
-        color:rgb(27, 103, 202);
+        color:rgb(96, 240, 245);
         border-bottom: 3px solid aqua;
        
     }
 
     .economy{
         font-size: 50px;
-        color:rgb(27, 103, 202);
+        color:rgb(96, 240, 245);
         border-bottom: 3px solid aqua;
        
     }
 
     .tourism{
         font-size: 50px;
-        color:rgb(27, 103, 202);
+        color:rgb(96, 240, 245);
     
        
     }

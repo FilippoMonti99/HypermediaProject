@@ -322,7 +322,7 @@ const client_manifest = {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "innov.c2c00ea0.png",
-    "src": "assets/img/innov.jpeg"
+    "src": "assets/img/about/innov.png"
   },
   "assets/img/about/investment.png": {
     "resourceType": "image",
@@ -370,7 +370,7 @@ const client_manifest = {
     "resourceType": "image",
     "mimeType": "image/png",
     "file": "innov.c2c00ea0.png",
-    "src": "assets/img/innov.jpeg"
+    "src": "assets/img/about/innov.png"
   },
   "assets/img/invest.png": {
     "resourceType": "image",

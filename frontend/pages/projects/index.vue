@@ -4,7 +4,7 @@
         <div class="cont-pr1"> 
             <div class="proj1">
                 <h1>Our projects</h1>
-                <h3 style="margin-top:-15px;">We want to support and nurture innovative ideas, drive market disruption, and contribute to the growth and development of impactful businesses</h3>
+                <p class="p2">We want to support and nurture innovative ideas, drive market disruption, and contribute to the growth and development of impactful businesses</p>
                 <NuxtLink to = "/mostrelevant" class="lin"> 
             <div id="most_stpr">
                <h1> Top ranked </h1>

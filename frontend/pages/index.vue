@@ -190,4 +190,9 @@
         color: white;
         text-decoration: none;
     }
+
+    .linksyle:hover{
+        color: #b014c5;
+        text-decoration: none;
+    }
 </style>

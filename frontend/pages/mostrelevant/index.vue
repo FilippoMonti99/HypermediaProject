@@ -2,7 +2,7 @@
     <main>
        <div class="rank">
             <h1> Top ranked projects</h1>
-            <h6> At Innovate Ventures, we are committed to identifying and supporting innovative projects that have the potential to make a significant impact in the economy, health, and tourism sectors. Our team of experts has meticulously evaluated numerous ventures and handpicked a selection of top-ranked projects that exemplify groundbreaking ideas and promising growth potential.</h6>
+            <p class="p6"> At Innovate Ventures, we are committed to identifying and supporting innovative projects that have the potential to make a significant impact in the economy, health, and tourism sectors. Our team of experts has meticulously evaluated numerous ventures and handpicked a selection of top-ranked projects that exemplify groundbreaking ideas and promising growth potential.</p>
        </div>
         
 
@@ -63,6 +63,10 @@
         justify-content: center;
         align-content: flex-start;
         gap: 20px;
+    }
+
+    .p6{
+        font-size:25pt;
     }
 
     main

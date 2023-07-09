@@ -57,9 +57,7 @@
     }
 
     .links:hover{
-        color:rgb(142, 205, 226);
-
-        
+        color: #b014c5;
     }
    
 </style>

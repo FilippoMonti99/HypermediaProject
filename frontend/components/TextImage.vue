@@ -86,7 +86,6 @@
     {
         font-size: 30px;
         font-weight: bold;
-        color: rgb(27, 103, 202);
         margin:1%;
     }
 </style>

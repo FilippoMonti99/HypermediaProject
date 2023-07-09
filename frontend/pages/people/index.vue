@@ -10,7 +10,7 @@
         <div class="cont-peo1"> 
             <div class="peop1">
                 <h1>Our team</h1>
-                <h3>At Innovate Ventures, our success is driven by the collective brilliance and diverse expertise of our exceptional team</h3>
+                <p class="p2">At Innovate Ventures, our success is driven by the collective brilliance and diverse expertise of our exceptional team</p>
             </div>
 
             <div class="image2">
